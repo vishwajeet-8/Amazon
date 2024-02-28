@@ -12,62 +12,66 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
   </head>
   <body>
     <!--------- navbar ---------->
     <header>
+      <!-- amazon-navbar-------------------------- -->
       <div class="navbar">
-        <div class="nav-logo border">
-          <div class="logo"></div>
-        </div>
-
-        <div class="nav-address border">
-          <p class="add-first">Deliver to</p>
-          <div class="add-icon">
-            <i class="fa-solid fa-location-dot"></i>
-            <p class="add-second">India</p>
+        <div class="amazon-navbar">
+          <div class="panel-all border">
+            <label for="menu"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="menu" />
+          </div>
+          <div class="nav-logo border">
+            <div class="logo-1"></div>
           </div>
         </div>
 
-        <div class="nav-search">
-          <select class="search-select">
-            <option>All</option>
-          </select>
-          <input placeholder="Search Amazon" class="search-input" />
-          <div class="search-icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="toggel amazon-navbar-details">
+          <div class="nav-address border">
+            <p class="add-first">Deliver to</p>
+            <div class="add-icon">
+              <i class="fa-solid fa-location-dot"></i>
+              <p class="add-second">India</p>
+            </div>
           </div>
-        </div>
-
-        <div class="nav-signin border">
-          <p><span>Hello, sign in</span></p>
-          <p class="nav-second">Accounts & Lists</p>
-        </div>
-
-        <div class="nav-return border">
-          <p><span>Returns</span></p>
-          <p class="nav-second">& Orders</p>
-        </div>
-
-        <div class="nav-cart border">
-          <i class="fa-solid fa-cart-shopping"></i>
-          Cart
+          <div class="nav-search">
+            <select class="search-select">
+              <option>All</option>
+            </select>
+            <input placeholder="Search Amazon" class="search-input" />
+            <div class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="nav-signin border">
+            <p><span>Hello, sign in</span></p>
+            <p class="nav-second">Accounts & Lists</p>
+          </div>
+          <div class="nav-return border">
+            <p><span>Returns</span></p>
+            <p class="nav-second">& Orders</p>
+          </div>
+          <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+          </div>
         </div>
       </div>
 
+      <!-- panel------------------------------------- -->
       <div class="panel">
-        <div class="panel-all border">
-          <i class="fa-solid fa-bars"></i>
-          All
-        </div>
-        <div class="panel-ops">
-          <p class="border">Today's Deals</p>
-          <p class="border">Registry</p>
-          <p class="border">Customer Service</p>
-          <p class="border">Gift Cards</p>
-          <p>Sell</p>
-        </div>
-        <div class="panel-deals border">Shop deals in Electronics</div>
+        <p class="border">Today's Deals</p>
+        <p class="border">Registry</p>
+        <p class="border">Customer Service</p>
+        <p class="border">Gift Cards</p>
+        <p class="border">Sell</p>
+        <p class="border">Fashion</p>
+        <p class="border">Beauty</p>
+        <p class="border">Kids</p>
+        <p class="border">Shop deals in Electronics</p>
       </div>
     </header>
 
@@ -85,7 +89,7 @@
     <!----------- shop-section --------->
     <div class="shop-section">
       <div class="box1 box">
-        <h2>Clothes under $20</h2>
+        <p class="title">Clothes under $20</p>
         <div
           class="box-img"
           style="background-image: url('box1_image.jpg')"
@@ -93,7 +97,7 @@
         <p>See more</p>
       </div>
       <div class="box2 box">
-        <h2>Mans gromming</h2>
+        <p class="title">Mans gromming</p>
         <div
           class="box-img"
           style="background-image: url('box2_image.jpg')"
@@ -101,7 +105,7 @@
         <p>See more</p>
       </div>
       <div class="box3 box">
-        <h2>Furnitures</h2>
+        <p class="title">Furnitures</p>
         <div
           class="box-img"
           style="background-image: url('box3_image.jpg')"
@@ -109,7 +113,7 @@
         <p>See more</p>
       </div>
       <div class="box4 box">
-        <h2>Mobiles & electronics</h2>
+        <p class="title">Mobiles & electronics</p>
         <div
           class="box-img"
           style="background-image: url('box4_image.jpg')"
@@ -117,7 +121,7 @@
         <p>See more</p>
       </div>
       <div class="box5 box">
-        <h2>Makeup under $20</h2>
+        <p class="title">Makeup under $20</p>
         <div
           class="box-img"
           style="background-image: url('box5_image.jpg')"
@@ -125,7 +129,7 @@
         <p>See more</p>
       </div>
       <div class="box6 box">
-        <h2>Pet foods & health care</h2>
+        <p class="title">Pet foods & health care</p>
         <div
           class="box-img"
           style="background-image: url('box6_image.jpg')"
@@ -133,7 +137,7 @@
         <p>See more</p>
       </div>
       <div class="box7 box">
-        <h2>Kids & stationary</h2>
+        <p class="title">Kids & stationary</p>
         <div
           class="box-img"
           style="background-image: url('box7_image.jpg')"
@@ -141,7 +145,7 @@
         <p>See more</p>
       </div>
       <div class="box8 box">
-        <h2>Fashion trends you like</h2>
+        <p class="title">Fashion trends you like</p>
         <div
           class="box-img"
           style="background-image: url('box8_image.jpg')"
@@ -208,5 +212,22 @@
         </div>
       </div>
     </footer>
+
+    <!---------------------- javascript--------------- -->
+    <script>
+      const toggelNavbar = document.querySelector(".panel-all");
+      const input = toggelNavbar.querySelector("input");
+      const label = toggelNavbar.querySelector("label");
+      const toggel = document.querySelector(".toggel");
+      toggelNavbar.addEventListener("click", (e) => {
+        if (input.checked) {
+          label.innerHTML = `<i class="fa-solid fa-xmark"></i>`;
+          toggel.classList.replace("amazon-navbar-details", "toggel-details");
+        } else {
+          label.innerHTML = `<i class="fa-solid fa-bars"></i>`;
+          toggel.classList.replace("toggel-details", "amazon-navbar-details");
+        }
+      });
+    </script>
   </body>
 </html>

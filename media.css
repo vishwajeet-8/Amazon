@@ -1,0 +1,133 @@
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+
+  /* amazon-navbar---------------------------------------- */
+  .nav-search {
+    width: 500px;
+  }
+  .search-input {
+    font-size: 1rem;
+  }
+  /* panel --------------------------------------------------*/
+  .hero-section {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 160px;
+  }
+
+  .hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    width: 95%;
+    margin-bottom: 25px;
+    font-size: 0.9rem;
+  }
+
+  /* shop-section------------------------ */
+  .shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #e2e7e6;
+  }
+
+  .box {
+    height: 300px;
+    width: 25%;
+    background-color: white;
+    padding: 20px 15px 15px;
+    margin-top: 15px;
+  }
+
+  .box-img {
+    height: 200px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .box p {
+    color: #007185;
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* For desktop */
+
+  /* amazon-navbar ----------------------------------------------*/
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .panel-all {
+    display: none;
+  }
+  .logo-1 {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+  }
+  .toggel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .toggel-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .nav-search {
+    width: 70%;
+    height: 35px;
+  }
+  .search-input {
+    font-size: 1rem;
+  }
+
+  /* panel ------------------------------------------*/
+  .hero-section {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 270px;
+  }
+
+  /* shop-section --------------------*/
+  .shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+  }
+
+  .box {
+    height: 380px;
+    width: 20%;
+    background-color: white;
+    padding: 20px 15px 15px;
+    margin-top: 15px;
+  }
+
+  .box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
